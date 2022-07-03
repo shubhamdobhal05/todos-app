@@ -1,10 +1,16 @@
 import Todo from "./component/todo";
+import Home from "./component/Home";
+import Login from "./component/Login";
+import Register from "./component/Register";
 
 
 function App() {
   return (
     <div>
-     <Todo/>
+      <Home/>
+      <Todo/>
+      <Login/>
+      <Register/>
     </div>
   );
 }
